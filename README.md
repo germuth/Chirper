@@ -5,6 +5,8 @@ Sample Application for Ruby on Rails Tutorial
 Learn Web Development with Rails*](http://www.railstutorial.org/)
 by [Michael Hartl](http://www.michaelhartl.com/).
 
+Website currently hosted at https://fast-escarpment-3047.herokuapp.com/ 
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
