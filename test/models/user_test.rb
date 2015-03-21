@@ -62,6 +62,6 @@ class UserTest < ActiveSupport::TestCase
 
 	# To ensure login and logout work proper with multiple browsers open
 	test "authenticated? should return false for a user with nil digest" do
-    assert_not @user.authenticated?('')
+    assert_not @user.authenticated?(:remember, '')
   end
 end
