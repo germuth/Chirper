@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+	has_many :chirps, dependent: :destroy
 	attr_accessor :remember_token, :activation_token, :reset_token
 	before_save do
 		self.email = email.downcase
@@ -13,6 +14,10 @@ class User < ActiveRecord::Base
 
 	has_secure_password
 	validates :password, length: {minimum: 6}
+
+	def feed
+		Chirp.where("user_id = ?", id)
+	end
 
 	def self.digest string
 		cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :

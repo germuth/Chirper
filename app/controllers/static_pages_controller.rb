@@ -1,6 +1,10 @@
 class StaticPagesController < ApplicationController
-  def home
-  end
+	def home
+		if logged_in?
+			@chirp = current_user.chirps.build
+			@feed_items = current_user.feed.paginate(page: params[:page])
+		end
+	end
 
   def help
   end

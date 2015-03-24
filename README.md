@@ -1,35 +1,16 @@
 == README
 
+Chirper!
+
+A Twitter Clone built using Ruby on Rails
+Website currently live at https://fast-escarpment-3047.herokuapp.com/ 
+
+Edited from:
 Sample Application for Ruby on Rails Tutorial
 [*Ruby on Rails Tutorial:
 Learn Web Development with Rails*](http://www.railstutorial.org/)
 by [Michael Hartl](http://www.michaelhartl.com/).
 
-Website currently hosted at https://fast-escarpment-3047.herokuapp.com/ 
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+TODO:
+* Account Activation and Password Reset Emails from bad email address. Should be noreply@chirper.com or something
+* Can add a little of view re-use with partials 
