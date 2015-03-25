@@ -15,7 +15,7 @@ class UsersProfileTest < ActionDispatch::IntegrationTest
     assert_select 'h1>img.gravatar'
     assert_match @user.chirps.count.to_s, response.body
     assert_select 'div.pagination'
-    @user.chirps.paginate(page: 1).each do |chirp|
+    @user.feed.paginate(page: 1).each do |chirp|
       assert_match chirp.content, response.body
     end
   end
