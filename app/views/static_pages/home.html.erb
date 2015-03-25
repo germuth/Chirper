@@ -4,6 +4,9 @@
 		<section class="user_info">
 			<%= render 'shared/user_info' %>
 		</section>
+		<section class="stats">
+			<%= render 'shared/stats' %>
+		</section>
 		<section class="chirp_form">
 			<%= render 'shared/chirp_form' %>
 		</section>
@@ -15,12 +18,10 @@
 	</div>
 <% else %>
 	<div class="center jumbotron">
-	<h1>Welcome to the Sample App</h1>
+	<h1>Welcome to Chirper</h1>
 
 	<h2>
-		This is the home page for the
-		<a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-		sample application.
+		Connect with your fellow sparrows
 	</h2>
 
 	<%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
