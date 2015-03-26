@@ -75,7 +75,7 @@ p {
 #logo {
   float: left;
   margin-right: 10px;
-  font-size: 1.7em;
+  font-size: 1.5em;
   color: white;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -85,6 +85,10 @@ p {
     color: white;
     text-decoration: none;
   }
+}
+
+#image-logo {
+	padding-top: 7px;
 }
 
 /* footer */

@@ -27,7 +27,8 @@ end
 
 users = User.order(:created_at).take(6)
 50.times do
-  content = Faker::Lorem.sentence(5)
+  #content = Faker::Lorem.sentence(5)
+	content = Faker::Hacker.say_something_smart
   users.each { |user| user.chirps.create!(content: content) }
 end
 
