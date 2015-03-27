@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<%= favicon_link_tag %>
 <title>	
 	<%= full_title yield :title %>
 </title>
@@ -10,8 +11,6 @@
 	<%= render 'layouts/shim' %>
 </head>
 <body>
-	<%= favicon_link_tag %>
-
 	<%= render 'layouts/header' %>
 	<div class="container">
 		<% flash.each do |message_type, message| %>
