@@ -2,7 +2,9 @@
 
 Chirper is a Twitter Clone built using Test Driven Development with Ruby on Rails. 
 
-![chirper_logo](https://cloud.githubusercontent.com/assets/3782710/6859886/305a18c6-d3dc-11e4-87fc-308edb0173a4.png)
+<p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/3782710/6859886/305a18c6-d3dc-11e4-87fc-308edb0173a4.png"/>
+<p/>
 
 The website is currently live at https://fast-escarpment-3047.herokuapp.com/, but please allow 30-45 seconds to initially load the page. 
 
